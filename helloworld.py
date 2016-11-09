@@ -13,8 +13,7 @@ destination_path = "/home/nithya/dest"
 destination_folder_content = os.listdir(destination_path)
 
 
-# for file in destination_folder_content:
-# 	print file
+
 sorted = []
 list = []
 
@@ -56,76 +55,3 @@ for file in source_folder_content:
 		if new_size > limit:
 		 	new_size=0;i = i + 1
 
-		# shutil.copy(filename, destination_path)
-		# print file_size(source_path)
-		# print "Copying Done!!"
-
-
-		# file_info = os.stat(filename)
-		# print file_info
-		# size = os.path.getsize(filename) -- get size of file
-		# size = file_info.st_size
-
-
-
-
-	# 	list.append((size, file))
-	# list.sort(key=lambda s: s[0])
-	# for lists in list:
-	# 	# print lists
-	# 	sorted = lists
-
-
-
-
-	# 	print "size:",size
-	# 	new_size = new_size + size
-	# print "new_size:",new_size
-	# limit = 2000000
-	# if new_size > limit * i and new_size < limit * (i + 1):
-	# 	print "greater"
-	# 	new_path = destination_path + "/" + "test" + str(i)
-	# 	shutil.copy(filename, new_path)
-	# 	i = i + 1
-	# 	try:
-	# 		os.mkdir(new_path, 0755)
-	# 	except OSError as e:
-	# 		raise
-	# 	print "created"
-
-
-
-
-	# m = convert_bytes(size)
-	# print m
-
-
-
-
-	
-
-	# size=0
-	# for file in sorted:
-	# 		size+=os.path.getsize(file)
-	# 		if size > 100000000:
-	# 			print "greater"
-	# 			for i in range(01, 50):
-	# 				new_path = destination_path+"/"+"test"+i
-	#    				os.makedirs(new_path)
-	#     			print "created"
-
-
-
-
-
-	# for file in source_folder_content:
-	# 	filename = os.path.join(source_path,file)
-
-
-	# for file in destination_folder_content:
-	# 	print file
-
-
-	# print "Destination folder is :%s"%sys.argv[2]
-	# print "a = %d"%a
-	# print "\nb = %d"%b
